@@ -1,0 +1,31 @@
+// ---------------------------------------------
+.container{
+      max-width: 1220px;
+      padding: 0 10px;
+      margin: 0 auto;
+}
+
+// Класс кнопки
+.button {
+      text-decoration: none;
+      color: #fff;
+      padding: 16px 32px;
+      background: #0E1734;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 19px;
+      @extend %inter-500;
+}
+
+// Стили текстов
+.text {
+     
+      font-size: 18px;
+      line-height: 150%;
+      color: #848FAC;
+      @extend %inter-400;
+      margin-bottom: 32px;
+}
+.wrapper{
+      overflow: hidden;
+}
